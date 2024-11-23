@@ -1,0 +1,17 @@
+{
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0"
+  }
+}
