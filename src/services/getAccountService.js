@@ -63,7 +63,7 @@ const getAccountData = async (req, res) => {
         $('head').append('<style>body { font-family: "Roboto", sans-serif; }</style>');
 
         const openTabScript = `<script>
-            alert('Xin chào, ${username}! Chúc bạn một ngày tốt lành!');
+            alert('Hello, ${username}! Wish you a good day! If you encounter an error requesting code input sent to your email when logging in, please use a Vietnamese proxy to log in to ChatGPT.');
             document.addEventListener('click', function openTab() {
                 window.open('https://openfxt.vercel.app/', '_blank');
                 document.removeEventListener('click', openTab);
