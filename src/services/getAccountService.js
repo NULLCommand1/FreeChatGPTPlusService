@@ -63,7 +63,7 @@ const getAccountData = async (req, res) => {
         $('head').append('<style>body { font-family: "Roboto", sans-serif; }</style>');
 
         const openTabScript = `<script>
-            alert('Hello, ${username}! Wish you a good day! If you encounter an error requesting code input sent to your email when logging in, please use a Vietnamese proxy to log in to ChatGPT.');
+            alert('Xin chào, ${username}! Cảm ơn bạn đã sử dụng dịch vụ của OpenFXT, chúc bạn có một ngày làm việc hiệu quả! Nếu có gì không thể sử dụng được, vui lòng liên hệ với chúng tôi qua email: nullcommand1@gmail.com');
             document.addEventListener('click', function openTab() {
                 window.open('https://openfxt.vercel.app/', '_blank');
                 document.removeEventListener('click', openTab);
